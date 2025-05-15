@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #4ed7f1;
+}
+
+.bree-serif-regular {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-500 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  padding-bottom: 30px;
+  margin-top: 20px;
+  background-color: #fffa8d;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.titulo {
+  padding: 5px;
+  margin-bottom: 20px;
+  background-color: #fffa8d;
+  border-radius: 20px;
+}
+
+img {
+  height: 300px;
+  border-radius: 20px;
+  border: 5px solid black;
+}
+
+.aboutMe {
+  border-radius: 20px;
+  background-color: #a8f1ff;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+li {
+  list-style: none;
+}
+
+.educacion {
+  border-radius: 20px;
+  background-color: #a8f1ff;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+}
+
+.experiencia {
+  border-radius: 20px;
+  background-color: #a8f1ff;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 60%;
+}
+
+.headerTitulo {
+  padding-bottom: 10px;
+}
+
+.cardstyle {
+  background-color: #6fe6fc;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  filter: drop-shadow(4px 10px 6px #272727);
+}
+
+.conocimientos{
+      border-radius: 20px;
+  background-color: #a8f1ff;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+}
+
+.footerstyle{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.awardsyotros{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
