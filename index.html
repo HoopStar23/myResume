@@ -1,93 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>My Resume</title>
-</head>
-<body>
-    <h1>Hakeem Siddique</h1>
-    <img src="./assets/image/IMG_20240302_183510~2.jpg" alt="Foto de Hakeem Siddique" height="200">
-    <h2>Acerca de</h2>
-    <p>Estudiante en proceso de graduación en el Grado Superior de Desarrollo de Aplicaciones Multiplataforma, 
-        con sólida experiencia en el desarrollo de proyectos utilizando lenguajes como Java, JavaScript, Dart, C#, 
-        Python, HTML y CSS. Domino tecnologías como Spring Boot, Node.js, Flutter, Bootstrap, SWING, SQL Server, MySQL, 
-        MongoDB, .NET y GitHub, trabajando con bases de datos tanto relacionales como no relacionales. Además, aplicando 
-        metodologías ágiles como SCRUM para garantizar una colaboración efectiva y entregas de alta calidad en equipo. 
-        Mi perfil combina habilidades técnicas con experiencia en entornos de desarrollo colaborativos y modernos.</p>
-    <hr />
-    <h2>Educación</h2>
-    <ul>
-        <li>CIFP Cesar Manrique 2018 - 2020</li>
-        <li>IES Marcos Zaragoza 2023 - 2025</li>
-    </ul>
-    <hr />
-    <h2>Experiencia</h2>
-    <ul>
-        <li><h3>Freelancer Fiverr</h3> 
-            <p>2017 - 2022</p>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1 class="titulo bree-serif-regular">Hakeem Siddique</h1>
+        <img
+          src="./assets/image/IMG_20240302_183510~2.jpg"
+          alt="Foto de Hakeem Siddique"
+        />
+      </div>
+
+      <div class="aboutMe">
+        <h2 class="bree-serif-regular headerTitulo">Acerca de</h2>
+        <p class="inter-500">
+          Estudiante en proceso de graduación en el Grado Superior de Desarrollo
+          de Aplicaciones Multiplataforma, con sólida experiencia en el
+          desarrollo de proyectos utilizando lenguajes como Java, JavaScript,
+          Dart, C#, Python, HTML y CSS. Domino tecnologías como Spring Boot,
+          Node.js, Flutter, Bootstrap, SWING, SQL Server, MySQL, MongoDB, .NET y
+          GitHub, trabajando con bases de datos tanto relacionales como no
+          relacionales. Además, aplicando metodologías ágiles como SCRUM para
+          garantizar una colaboración efectiva y entregas de alta calidad en
+          equipo. Mi perfil combina habilidades técnicas con experiencia en
+          entornos de desarrollo colaborativos y modernos.
+        </p>
+      </div>
+
+      <hr />
+
+      <div class="educacion">
+        <h2 class="bree-serif-regular headerTitulo">Educación</h2>
+        <ul>
+          <li class="inter-500">CIFP Cesar Manrique 2018 - 2020</li>
+          <li class="inter-500">IES Marcos Zaragoza 2023 - 2025</li>
+        </ul>
+      </div>
+
+      <hr />
+
+      <div class="experiencia">
+        <h2 class="bree-serif-regular headerTitulo">Experiencia</h2>
+        <ul>
+          <li class="cardstyle">
+            <h3 class="inter-500">Freelancer Fiverr</h3>
+            <p class="inter-500">2017 - 2022</p>
             <ul>
-                <li>Responsable de dibujar y producir proyectos segun la solicitud del cliente</li>
-                <li>Animación 3D de los objetos a utilizar en cada campaña</li>
-                <li>Atender a dudas, consejos y preguntas relacionadas con el proyecto</li>
+              <li class="inter-500">
+                Responsable de dibujar y producir proyectos segun la solicitud
+                del cliente
+              </li>
+              <li class="inter-500">
+                Animación 3D de los objetos a utilizar en cada campaña
+              </li>
+              <li class="inter-500">
+                Atender a dudas, consejos y preguntas relacionadas con el
+                proyecto
+              </li>
             </ul>
-        </li>
+          </li>
 
-        <li><h3>Reponedor Leroy Merlin</h3>
-            <p>2023 - 2023</p> 
+          <li class="cardstyle">
+            <h3 class="inter-500">Reponedor Leroy Merlin</h3>
+            <p class="inter-500">2023 - 2023</p>
             <ul>
-                <li>Reposición de productos</li>
-                <li>Apoyo en la recepción y organización del cargamento en el almacén</li>
-                <li>Atención al cliente</li>
+              <li class="inter-500">Reposición de productos</li>
+              <li class="inter-500">
+                Apoyo en la recepción y organización del cargamento en el
+                almacén
+              </li>
+              <li class="inter-500">Atención al cliente</li>
             </ul>
-        </li>
+          </li>
 
-        <li><h3>Desarrollador de backend en IMED Hospitales</h3>
-            <p> 2025 - Actualidad</p>
+          <li class="cardstyle">
+            <h3 class="inter-500">
+              Desarrollador de backend en IMED Hospitales
+            </h3>
+            <p class="inter-500">2025 - Actualidad</p>
             <ul>
-                <li>Actualmente formo parte del equipo de IT en Imed Hospitales como desarrollador 
-                    backend, especializado en C# con el framework WPF y en la gestion de datos con SQL</li>
+              <li class="inter-500">
+                Actualmente formo parte del equipo de IT en Imed Hospitales como
+                desarrollador backend, especializado en C# con el framework WPF
+                y en la gestion de datos con SQL
+              </li>
             </ul>
-        </li>
-    </ul>
-    <hr />
-    <h2>Conocimientos y Aptitudes</h2>
-    <ul>
-        <li>Microsoft SQL Server</li>
-        <li>Transact-SQL</li>
-        <li>WPF</li>
-        <li>MySQL</li>
-        <li>Firebase</li>
-        <li>Python</li>
-        <li>Git</li>
-        <li>SQL</li>
-        <li>.Net Framework</li>
-        <li>Docker</li>
-        <li>Springboot</li>
-        <li>Java</li>
-        <li>Dart</li>
-        <li>Flutter</li>
-        <li>Substance Painter</li>
-        <li>Unreal Engine</li>
-        <li>Blender 3D</li>
-        <li>Adobe Photoshop</li>
-    </ul>
-    <hr />
-    <h2>Awards and Certifications</h2>
-    <ul>
-        <li>Master en SQL Server Desde Cero a Nivel Profesional 2025
-            <a href="https://www.udemy.com/certificate/UC-ce509ec5-5e9a-4c9f-9d16-1001905e0666/">Mostrar Credencial</a>
-        </li>
-        <li>150 hour TEFL/TESOL Online Course</li>
-        <li>Certificacion B2 de Idioma Inglés</li>
-    </ul>
+          </li>
+        </ul>
+      </div>
 
-    <hr />
-    <h2>Other</h2>
-    <a href="https://www.linkedin.com/in/hakeem-siddique-302a621a8/">Contact Me</a>
-</body>
+      <hr />
 
-<footer>
-    <p>Hakeem Siddique. All rights reserved.</p>
-</footer>
+      <div class="conocimientos">
+        <h2 class="bree-serif-regular headerTitulo">
+          Conocimientos y Aptitudes
+        </h2>
+        <ul>
+          <li class="inter-500 cardstyle">Microsoft SQL Server</li>
+          <li class="inter-500 cardstyle">Transact-SQL</li>
+          <li class="inter-500 cardstyle">WPF</li>
+          <li class="inter-500 cardstyle">MySQL</li>
+          <li class="inter-500 cardstyle">Firebase</li>
+          <li class="inter-500 cardstyle">Python</li>
+          <li class="inter-500 cardstyle">Git</li>
+          <li class="inter-500 cardstyle">SQL</li>
+          <li class="inter-500 cardstyle">.Net Framework</li>
+          <li class="inter-500 cardstyle">Docker</li>
+          <li class="inter-500 cardstyle">Springboot</li>
+          <li class="inter-500 cardstyle">Java</li>
+          <li class="inter-500 cardstyle">Dart</li>
+          <li class="inter-500 cardstyle">Flutter</li>
+          <li class="inter-500 cardstyle">Substance Painter</li>
+          <li class="inter-500 cardstyle">Unreal Engine</li>
+          <li class="inter-500 cardstyle">Blender 3D</li>
+          <li class="inter-500 cardstyle">Adobe Photoshop</li>
+        </ul>
+      </div>
+
+      <hr />
+
+      <div class="awardsyotros">
+        <div>
+          <h2 class="bree-serif-regular headerTitulo">
+            Awards and Certifications
+          </h2>
+          <ul>
+            <li class="inter-500">
+              Master en SQL Server Desde Cero a Nivel Profesional 2025
+              <a
+                class="inter-500"
+                href="https://www.udemy.com/certificate/UC-ce509ec5-5e9a-4c9f-9d16-1001905e0666/"
+                >Mostrar Credencial</a
+              >
+            </li>
+            <li class="inter-500">150 hour TEFL/TESOL Online Course</li>
+            <li class="inter-500">Certificacion B2 de Idioma Inglés</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="bree-serif-regular headerTitulo">Other</h2>
+          <a
+            class="inter-500"
+            href="https://www.linkedin.com/in/hakeem-siddique-302a621a8/"
+            >Contact Me</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <footer>
+    <p class="inter-500 footerstyle">Hakeem Siddique. All rights reserved.</p>
+  </footer>
 </html>
